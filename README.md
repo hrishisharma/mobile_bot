@@ -4,12 +4,18 @@
 A rover capable of performing **mapping, localizing, and navigating** itself through the map!
 
 *This package has been created and tested on Ubuntu 22.04 with ROS2 Humble, Gazebo 11.10.2, Rviz2, and Nav2 stack.*
+## **Install**
+*run install_file.sh*
+```
+./install_file.sh
+```
 
 ## **How to build**
 *Creating a workspace to build the package*
 ```
 mkdir -p ~/mobile_bot_ws/src && cd ~/mobile_bot_ws/src
 ```
+
 *Cloning the package*
 ```
 git clone https://github.com/hrishisharma/mobile_bot.git
