@@ -17,8 +17,7 @@ cd ~/mobile_bot_ws
 ```
 *Installing the dependencies and building the workspace*
 ```
-rosdep install --from-paths src -y --ignore-src
-colcon build
+colcon build --symlink-install
 ```
 
 ## **Mapping**
